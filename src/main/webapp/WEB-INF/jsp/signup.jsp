@@ -151,7 +151,7 @@
 								<div class="form-group">
 									<label for="dateOfBirthInput" class="col-lg-3 control-label">Date
 										of Birth</label>
-									<div class="input-group date form_date col-lg-9" data-date-format="mm/dd/yyyy" data-date-viewmode="years">
+									<div class="date form_date col-lg-9" data-date-format="mm/dd/yyyy" data-date-viewmode="years">
 										<form:input type="text" class="form-control"											
 											path="dateOfBirth" id="dateOfBirthInput"
 											placeholder="Date of Birth" />
