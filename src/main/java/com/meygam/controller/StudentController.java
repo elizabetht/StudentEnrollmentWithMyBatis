@@ -47,7 +47,7 @@ public class StudentController {
 	}
 	
 	@RequestMapping(value="/login", method=RequestMethod.POST)
-	public String login(@ModelAttribute("studentLogin") StudentLogin studentLogin, BindingResult result) {
+	public String login(@ModelAttribute("studentLogin") StudentLogin studentLogin) {
 		boolean found = studentService.getStudentByLogin(studentLogin.getUserName(), studentLogin.getPassword());
 		if (found) {				
 			return "success";
