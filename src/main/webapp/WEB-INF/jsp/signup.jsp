@@ -175,7 +175,7 @@
 
 									<button class="btn btn-primary" data-toggle="modal"
 										data-target="#themodal">Submit</button>
-									<div id="themodal" class="modal fade">
+									<div id="themodal" class="modal fade" data-backdrop="static">
 										<div class="modal-dialog">
 											<div class="modal-content">
 												<div class="modal-header">
