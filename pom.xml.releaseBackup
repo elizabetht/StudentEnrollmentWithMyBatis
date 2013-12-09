@@ -61,7 +61,7 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<connection>scm:git:git@github.com:elizabetht/StudentEnrollmentWithMyBatis.git</connection>
+		<connection>scm:git:https://github.com/elizabetht/StudentEnrollmentWithMyBatis.git</connection>
 		<developerConnection>scm:git:git@github.com:elizabetht/StudentEnrollmentWithMyBatis.git</developerConnection>
 		<url>git@github.com:elizabetht/StudentEnrollmentWithMyBatis.git</url>
 	</scm>
