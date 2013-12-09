@@ -31,7 +31,7 @@
 
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 	<property name="dataSource" ref="dataSource" />
-	<property name="typeAliasesPackage" value="com.meygam.model"/>
+	<property name="typeAliasesPackage" value="com.github.elizabetht.model"/>
 	<property name="mapperLocations" value="classpath*:com/meygam/mappers/*.xml" />
 </bean>
 
@@ -40,7 +40,7 @@
 </bean>
 
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-	<property name="basePackage" value="com.meygam.mappers" />
+	<property name="basePackage" value="com.github.elizabetht.mappers" />
 </bean>
 
 <tx:annotation-driven transaction-manager="transactionManager" />

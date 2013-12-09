@@ -1,17 +1,16 @@
-package com.meygam.controller;
+package com.github.elizabetht.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.meygam.model.Student;
-import com.meygam.model.StudentLogin;
-import com.meygam.service.StudentService;
+import com.github.elizabetht.model.Student;
+import com.github.elizabetht.model.StudentLogin;
+import com.github.elizabetht.service.StudentService;
 
 @Controller
 @SessionAttributes("student")

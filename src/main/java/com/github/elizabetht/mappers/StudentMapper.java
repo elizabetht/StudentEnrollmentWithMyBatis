@@ -1,10 +1,10 @@
-package com.meygam.mappers;
+package com.github.elizabetht.mappers;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 
-import com.meygam.model.Student;
+import com.github.elizabetht.model.Student;
 
 public interface StudentMapper {
 	@Insert("INSERT INTO student(userName, password, firstName,"

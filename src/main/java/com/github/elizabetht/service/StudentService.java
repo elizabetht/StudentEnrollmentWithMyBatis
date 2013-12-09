@@ -1,6 +1,6 @@
-package com.meygam.service;
+package com.github.elizabetht.service;
 
-import com.meygam.model.Student;
+import com.github.elizabetht.model.Student;
 
 public interface StudentService {
 	void insertStudent(Student student);
