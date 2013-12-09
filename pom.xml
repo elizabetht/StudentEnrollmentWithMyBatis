@@ -3,7 +3,7 @@
 	<groupId>com.github.elizabetht</groupId>
 	<artifactId>StudentEnrollmentWithMyBatis</artifactId>
 	<packaging>war</packaging>
-	<version>1.7-SNAPSHOT</version>
+	<version>1.7</version>
 	<name>StudentEnrollmentWithMyBatis Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<parent>
