@@ -3,7 +3,7 @@
 	<groupId>com.github.elizabetht</groupId>
 	<artifactId>StudentEnrollmentWithMyBatis</artifactId>
 	<packaging>war</packaging>
-	<version>1.7</version>
+	<version>1.7-SNAPSHOT</version>
 	<name>StudentEnrollmentWithMyBatis Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<parent>
@@ -116,18 +116,6 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-release-plugin</artifactId>
-				<version>2.2.2</version>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-scm-plugin</artifactId>
-						<version>1.8.1</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
