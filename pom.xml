@@ -63,7 +63,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:elizabetht/StudentEnrollmentWithMyBatis.git</connection>
 		<developerConnection>scm:git:git@github.com:elizabetht/StudentEnrollmentWithMyBatis.git</developerConnection>
-		<url>https://github.com/elizabetht/StudentEnrollmentWithMyBatis.git</url>
+		<url>git@github.com:elizabetht/StudentEnrollmentWithMyBatis.git</url>
 	</scm>
 	<developers>
 		<developer>
