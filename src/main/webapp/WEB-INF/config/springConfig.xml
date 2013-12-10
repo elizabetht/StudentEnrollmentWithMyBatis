@@ -11,7 +11,7 @@
 
 <mvc:annotation-driven />
 
-<context:component-scan base-package="com.meygam" />
+<context:component-scan base-package="com.github.elizabetht" />
 
 <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	<property name="prefix" value="/WEB-INF/jsp/" />
@@ -32,7 +32,7 @@
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 	<property name="dataSource" ref="dataSource" />
 	<property name="typeAliasesPackage" value="com.github.elizabetht.model"/>
-	<property name="mapperLocations" value="classpath*:com/meygam/mappers/*.xml" />
+	<property name="mapperLocations" value="classpath*:com/github/elizabetht/mappers/*.xml" />
 </bean>
 
 <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
